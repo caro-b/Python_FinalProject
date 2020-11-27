@@ -42,11 +42,33 @@ spplot(prec_ger1)
 
 # spatial masking: mask() masks out all values outside the border
 prec_ger2 <- mask(prec_ger1, germany)
-ssplot(prec_ger2)
+spplot(prec_ger2)
+
+prec_avg <- cellStats(prec_ger2, stat="mean")
+
 
 #### TODO: exchange crop and mask - what happens? ####
+prec_ger1 <- mask(prec, germany) 
+spplot(prec_ger1)
+
+prec_ger2 <- crop(prec_ger1, germany)
+spplot(prec_ger2)
+
+# no difference?
+
 
 #### TODO: plot the precipiation, re-run the code for different data and countries ####
+afghanistan <- getData("GADM", country = "AFG", level = 2)
+plot(afghanistan)
+
+bio <- getData("worldclim", var = "bio", res = 5, lon = 68, lat = 34)
+plot(bio)
+
+bio_afg1 <- crop(bio, afghanistan) 
+spplot(bio_afg1)
+
+bio_afg2 <- mask(bio_afg1, afghanistan)
+spplot(bio_afg2)
 
 
 #### officeR ####
