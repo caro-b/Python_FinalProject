@@ -1,0 +1,36 @@
+Presentation_R_Test
+========================================================
+author: Caroline Busse
+date: 26.10.2020
+autosize: true
+transition: fade
+
+First Slide
+========================================================
+
+For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+
+- hello world
+- :)
+- ...
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
+Slide With Image
+========================================================
+
+```{r, echo=FALSE}
+image(volcano)
+```
