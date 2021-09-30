@@ -8,14 +8,14 @@
 **Author:** Caroline Busse (September 2021)
 
 ## **Script Structure**
-# 0. Download EuroSAT data
-# 1. Data Exploration of EuroSAT dataset
-# 2. Pre-Processing of image tiles
-# 3. Model Building
-# 4. Accuracy Assessment
-# 5. Transfer Learning: apply pre-trained model to new data (unlabeled Sentinel-2 64x64m tiles in city of Leipzig) to predict their LULC class
-# 6. Validation of the predicted LULC classes via field data collected in Leipzig
-# 7. Research Outcome
+0. Download EuroSAT data
+1. Data Exploration of EuroSAT dataset
+2. Pre-Processing of image tiles
+3. Model Building
+4. Accuracy Assessment
+5. Transfer Learning: apply pre-trained model to new data (unlabeled Sentinel-2 64x64m tiles in city of Leipzig) to predict their LULC class
+6. Validation of the predicted LULC classes via field data collected in Leipzig
+7. Research Outcome
 
 ## **Sources:**
 #[1] Eurosat: A novel dataset and deep learning benchmark for land use and land cover classification. Patrick Helber, Benjamin Bischke, Andreas Dengel, Damian Borth. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2019.
