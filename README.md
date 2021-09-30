@@ -1,11 +1,11 @@
 # Spatial Python - Final Project
 # **Deep Learning for Patch-based LULC Classification (Leipzig)**
 
+**Author:** Caroline Busse (September 2021)
+
 - using the EuroSAT dataset to train a convolutional neural network to predict LULC classes of a new dataset
 - via transfer learning the CNN model is pre-trained on the EuroSAT (labeled 64x64m Sentinel 2 tiles) and then applied to classif the LULC of the city of Leipzig
 
-
-**Author:** Caroline Busse (September 2021)
 
 ## **Script Structure**
 0. Download EuroSAT data
